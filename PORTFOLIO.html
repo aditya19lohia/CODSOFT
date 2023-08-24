@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0%;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 100px;
+        }
+        nav ul{
+            display: flex;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0px 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: aqua;
+            font-size: 1.1rem;
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .first{
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0px;
+            align-items: center;
+            margin: 140px 0px;
+        }
+        .first > div{
+            width: 30%;
+        }
+        .left1{
+            font-size: 2.5rem;
+
+        }
+        .right1 img{
+            width: 80%;
+        }
+        .purple{
+            color: blueviolet;
+        }
+        .second{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .second h1{
+            font-size: 2.5rem;
+        }
+        .first div div{
+            font-size: 1.4rem;
+        }
+        .second .box{
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0px;
+            display: flex;
+        }
+        .second .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0px 100px;
+            
+        }
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 14px;
+        }
+        .image-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        footer{
+
+            background-color: rgba(27, 4, 27, 0.993);
+            height: 500px;
+        }
+        .footer{
+            display: flex;
+            margin: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+            padding: 30px 0px;
+        }
+        .footer > div{
+            width: 123px;
+        }
+        .footer-first{
+            font-weight: bolder;
+            font-size: 1.5rem;
+            text-align: center;
+            padding: 100px 0px;
+        }
+        .text-centre{
+            text-align: center;
+            color: gray;
+            padding: 23px 0px;
+        }
+        .image{
+            width: 30px;
+            
+        }
+        .footer ul li{
+            margin: 10px 0px;
+            text-align: center;
+            padding: 10px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Aditya's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">home</a></li>
+                    <li><a href="/">about</a></li>
+                    <Li><a href="/">services</a></Li>
+                    <li><a href="/">project</a></li>
+                    <li><a href="/">contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="left1">Hii there, I am <span class="purple">Aditya Lohia</span>
+                <div>I am a passionate and dedicated web developer with a keen 
+                    eye for crafting immersive digital experiences.With a solid 
+                    foundation in front-end technologies </div>
+            </div>
+            <div class="right1">
+                <img src="./developer.png"/>
+            </div>
+        </section>
+        <section class="second">
+            <h1>About me</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="./developer.png"/>
+                    <div class="vertical-title">
+                        education
+                    </div>
+                    <div class="vertical-desc">
+                        <ul>
+                            <li>Btech in information technology | JIIT,Noida</li>
+                            <li>X(ICSE)|Scottish high international school,Gurugram</li>
+                            <li>XII(CBSE)|St.xaviers high school,Gurugram</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="./developer.png"/>
+                    <div class="vertical-title">
+                        devtown front-end bootcamp
+                    </div>
+                    <div class="vertical-desc">Attended font end developement bootcamp
+                        organised by Devtown onlone.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="./developer.png"/>
+                    <div class="vertical-title">
+                        Home service system
+                    </div>
+                    <div class="vertical-desc">created a Home service system project
+                        designed to streamline and enhance the process of 
+                        requesting and scheduling various home services. This
+                         web-based application caters to the needs of homeowners,
+                          connecting them with skilled service providers in their
+                           local area.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="./developer.png"/>
+                    <div class="vertical-title">
+                        skills
+                    </div>
+                    <div class="vertical-desc">
+                        <ul>
+                            <li>c</li>
+                            <li>c++</li>
+                            <li>html/css/javascript</li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="./developer.png"/>
+                    <div class="vertical-title">
+                        Course project
+                    </div>
+                    <div class="vertical-desc">
+                        <ul>
+                            <li>quiz game(C)</li>
+                            <li>contact management system(C++)</li>
+                            <li>HELPIFY-A mini home service platform(html,css,
+                                javascrpit,php</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">Aditya's Developer Portfolio</div>
+            <div class="footer-second">
+                <ul>
+                    <li>Services</li>
+                    <li>website developement</li>
+                    <li>consulting</li>
+                    <li>E-commerce solution</li>
+                </ul>
+            </div>
+            <div class="footerthird">
+                <ul>
+                    <li>contact</li>
+                    <li>(+91)8076317040</li>
+                    <li>lohiaaditya58@gmail.com</li>
+                    <li>office-joystreet Gurugram</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Reach us at</li>
+                    <li><img class="image" src="./fb.png"/></li>
+                    <li><img class="image" src="./ig.png"/></li>
+                    <li><img class="image" src="./li.png"/></li>
+                    <li><img class="image" src="./twitter.png"/></li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-centre">
+             www.adityaportfolio.com | All rights reserved &#169; copyright</div>
+    </footer>
+</body>
+
+</html>
